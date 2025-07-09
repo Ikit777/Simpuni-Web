@@ -15,6 +15,7 @@
 
 # production
 /build
+.next.zip
 
 # misc
 .DS_Store
