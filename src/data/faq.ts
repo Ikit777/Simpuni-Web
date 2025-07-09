@@ -1,25 +1,22 @@
-import { IFAQ } from "@/types";
-import { siteDetails } from "./siteDetails";
+import { IFAQ } from "@/types/types";
 
 export const faqs: IFAQ[] = [
-    {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
-    },
-    {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
-    },
-    {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
-    },
-    {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
-    },
-    {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
-    }
+  {
+    question: `Apa tujuan aplikasi Simpuni?`,
+    answer:
+      "Mempermudah pendataan bangunan yang tidak berizin, terutama saat pemantauan di lapangan.",
+  },
+  {
+    question: "Apakah pelaku pelanggaran tetap sasaran?",
+    answer: `Benar, karena telah divalidasi oleh petugas kami.`,
+  },
+  {
+    question: `Apakah Simpuni dapat dimanipulasi?`,
+    answer:
+      "Data aplikasi Simpuni tidak dapat dimanipulasi menggunakan Fake GPS.",
+  },
+  {
+    question: "Apakah dapat mengajukan banding oleh terlapor?",
+    answer: "Bisa, dengan menghubungi petugas kami.",
+  },
 ];

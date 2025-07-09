@@ -1,5 +1,6 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
-    centerImageSrc: '/images/hero-mockup.webp',
-}
+  heading: "Pendataan, Pengawasan, Perizinan Bangunan",
+  subheading:
+    "Mendukung penataan kota secara optimal, menghindari potensi kekumuhan, dan memastikan pembangunan berkelanjutan di Kota Banjarbaru",
+  centerImageSrc: "",
+};
