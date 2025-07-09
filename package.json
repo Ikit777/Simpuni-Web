@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev-server": "PORT=3050 next dev",
+    "build-server": "PORT=3050 next build",
+    "start-server": "PORT=3050 next start",
+    "lint-server": "PORT=3050 next lint"
   },
   "dependencies": {
     "@headlessui/react": "^2.1.8",
