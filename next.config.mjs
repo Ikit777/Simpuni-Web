@@ -11,7 +11,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "http",
-        hostname: "89.116.20.101",
+        hostname: "apisimpuni.banjarbarukota.go.id",
         pathname: "/**",
       },
     ],
