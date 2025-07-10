@@ -6,6 +6,7 @@ const securityHeaders = [
   },
 ];
 const nextConfig = {
+  output: 'standalone',
   reactStrictMode: false,
   images: {
     remotePatterns: [
