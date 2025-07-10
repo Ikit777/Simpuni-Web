@@ -61,10 +61,10 @@ COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 USER nextjs
 
 # Expose port
-EXPOSE 3030
+EXPOSE 3050
 
 # Set environment variables dengan format yang benar
-ENV PORT=3030
+ENV PORT=3050
 ENV HOSTNAME="0.0.0.0"
 
 # Command untuk menjalankan aplikasi
